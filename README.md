@@ -1,4 +1,6 @@
-# MVVCCdemo
+# 我对MVVM框架的理解：MVVCC框架思路
+
+MVVM是Medel-View-ViewModel。我把ViewModel当做Control来理解于是就成了Model-View-ViewControl-Control的MVVCC框架。
 MVVCC框架设想
 iOS中viewcontrol中包含一个view，导致viewcontrol的含义有点模糊：既含有viewmodel，又有control。
 以下M代表Model，V代表各种View，VC代表ViewController(iOS组件中viewcontrol)，C代表Control。
